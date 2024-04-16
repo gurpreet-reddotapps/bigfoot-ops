@@ -97,6 +97,8 @@ android {
         versionCode project.env.get("ANDROID_VERSION_CODE")?.toInteger() ?: 1
         versionName project.env.get("ANDROID_VERSION_NAME") ?: "1.0.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
+        resValue "string", "app_name", project.env.get("APP_NAME") ?: "Navigator"
+        resValue "string", "build_config_package", "com.fleetbase.navigator"
     }
     signingConfigs {
         release {

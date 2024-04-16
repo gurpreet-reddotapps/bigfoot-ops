@@ -44,7 +44,7 @@ node_modules/
 npm-debug.log
 yarn-error.log
 yarn.lock
-.env
+# .env
 .env.*
 
 # BUCK
