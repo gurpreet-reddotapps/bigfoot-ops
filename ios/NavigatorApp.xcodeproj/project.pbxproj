@@ -517,7 +517,7 @@
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = NavigatorApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "BigfootSG OPS";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bigfoot OPS";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +551,7 @@
 				DEVELOPMENT_TEAM = HDJ478L7P9;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = NavigatorApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "BigfootSG OPS";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bigfoot OPS";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
