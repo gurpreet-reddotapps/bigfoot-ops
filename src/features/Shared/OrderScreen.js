@@ -845,16 +845,18 @@ const OrderScreen = ({ navigation, route }) => {
                                 </View>
                             </View>
                         )}
-                        <View style={tailwind('mt-2')}>
-                            <View style={tailwind('flex flex-col items-center')}>
-                                <View style={tailwind('flex flex-row items-center justify-between w-full p-4 border-t border-b border-gray-700')}>
-                                    <View style={tailwind('flex flex-row items-center')}>
-                                        <Text style={tailwind('font-semibold text-gray-100')}>Documents & Files</Text>
+                        {isArray(documents) && documents?.length > 0 && (
+                            <View style={tailwind('mt-2')}>
+                                <View style={tailwind('flex flex-col items-center')}>
+                                    <View style={tailwind('flex flex-row items-center justify-between w-full p-4 border-t border-b border-gray-700')}>
+                                        <View style={tailwind('flex flex-row items-center')}>
+                                            <Text style={tailwind('font-semibold text-gray-100')}>Documents & Files</Text>
+                                        </View>
                                     </View>
+                                    <View style={tailwind('w-full p-4 flex items-start flex-row  ')}>{documents.map((document, index) => renderDocumentItem(document, index))}</View>
                                 </View>
-                                <View style={tailwind('w-full p-4 flex items-start flex-row  ')}>{documents.map((document, index) => renderDocumentItem(document, index))}</View>
                             </View>
-                        </View>
+                        )}
                         {isArray(order.getAttribute('payload.entities', [])) && order.getAttribute('payload.entities', []).length > 0 && (
                             <View>
                                 <View style={tailwind('mt-2')}>
@@ -946,7 +948,7 @@ const OrderScreen = ({ navigation, route }) => {
                     </View>
                 </View>
             </ScrollView>
-            
+
             <ActionSheet
                 ref={actionSheetRef}
                 containerStyle={{ height: actionSheetHeight, backgroundColor: getColorCode('bg-gray-800') }}
