@@ -88,7 +88,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.bigfootSG.ops"
+    namespace "com.fleetbase.navigator"
     defaultConfig {
         applicationId project.env.get("APP_IDENTIFIER")
         minSdkVersion rootProject.ext.minSdkVersion
@@ -98,7 +98,7 @@ android {
         versionName project.env.get("ANDROID_VERSION_NAME") ?: "1.0.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
         resValue "string", "app_name", project.env.get("APP_NAME") ?: "Navigator"
-        resValue "string", "build_config_package", "com.bigfootSG.ops"
+        resValue "string", "build_config_package", "com.fleetbase.navigator"
     }
     signingConfigs {
         release {
@@ -116,13 +116,6 @@ android {
             keyPassword 'android'
         }
     }
-
-    packagingOptions {
-        pickFirst '**/libc++_shared.so'
-        pickFirst '**/libfbjni.so'
-    }
-
-
     buildTypes {
         debug {
             signingConfig signingConfigs.debug

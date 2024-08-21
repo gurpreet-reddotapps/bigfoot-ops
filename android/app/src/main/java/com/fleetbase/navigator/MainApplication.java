@@ -1,4 +1,4 @@
-package com.bigfootSG.ops;
+package com.fleetbase.navigator;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
