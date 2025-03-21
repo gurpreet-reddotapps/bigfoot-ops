@@ -79,7 +79,7 @@ ios/tmp.xcconfig
 
 # Credentials/ Config
 #
-android/app/google-services.json
+# android/app/google-services.json
 
 # App Configuration Files
 #

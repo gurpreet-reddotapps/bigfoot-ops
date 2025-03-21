@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "308936556395",
+    "firebase_url": "https://bigfoot-1c50a-default-rtdb.firebaseio.com",
+    "project_id": "bigfoot-1c50a",
+    "storage_bucket": "bigfoot-1c50a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308936556395:android:a7cae8df8199a59d69562e",
+        "android_client_info": {
+          "package_name": "com.bigfootSG.ops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl3VSase0Xm5hWCewNyynXzsfPvtYHhnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308936556395-9rn6vk5qq041n0k3vq12r0k791frnk1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.bigfoot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308936556395:android:384d5c40ae329eb869562e",
+        "android_client_info": {
+          "package_name": "com.bigfootsg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl3VSase0Xm5hWCewNyynXzsfPvtYHhnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308936556395-9rn6vk5qq041n0k3vq12r0k791frnk1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.bigfoot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308936556395:android:a2c15f9d826c1bbe69562e",
+        "android_client_info": {
+          "package_name": "com.bigfootsg.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl3VSase0Xm5hWCewNyynXzsfPvtYHhnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308936556395-9rn6vk5qq041n0k3vq12r0k791frnk1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.bigfoot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308936556395:android:119f79c0464ad5b069562e",
+        "android_client_info": {
+          "package_name": "com.bigfootsg.stag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl3VSase0Xm5hWCewNyynXzsfPvtYHhnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308936556395-rp1ik5nd5rv59vd0n2bviff8hhsutdag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308936556395-9rn6vk5qq041n0k3vq12r0k791frnk1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.bigfoot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
