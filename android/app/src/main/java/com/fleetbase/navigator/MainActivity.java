@@ -1,4 +1,4 @@
-package com.bigfootSG.ops;
+package com.fleetbase.navigator;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
