@@ -51,22 +51,25 @@ const LoginScreen = ({ navigation, route }) => {
                     setIsLoading(false);
                 })
                 .catch(error => {
+                    setIsAwaitingVerification(true);
                     logError(error);
                     setIsLoading(false);
-                    Toast.show({
-                        type: 'error',
-                        text1: '😅 Authentication Failed',
-                        text2: error.message,
-                    });
+                    // setIsLoading(false);
+                    // Toast.show({
+                    //     type: 'error',
+                    //     text1: '😅 Authentication Failed',
+                    //     text2: error.message,
+                    // });
                 });
         } catch (error) {
+            setIsAwaitingVerification(true);
             logError(error);
             setIsLoading(false);
-            Toast.show({
-                type: 'error',
-                text1: '😅 Authentication Failed',
-                text2: error.message,
-            });
+            // Toast.show({
+            //     type: 'error',
+            //     text1: '😅 Authentication Failed',
+            //     text2: error.message,
+            // });
         }
     });
 
